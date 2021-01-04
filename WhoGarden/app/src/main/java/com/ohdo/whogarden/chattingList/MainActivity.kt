@@ -1,11 +1,12 @@
-package com.ohdo.whogarden
+package com.ohdo.whogarden.chattingList
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.ohdo.whogarden.R
 
-class ChattingActivity : AppCompatActivity() {
+class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_chatting)
+        setContentView(R.layout.activity_main)
     }
 }
