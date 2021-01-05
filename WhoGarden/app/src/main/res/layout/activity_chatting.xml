@@ -6,12 +6,12 @@
     <data>
         <variable
             name="chattingViewModel"
-            type="com.ohdo.whogarden.ChattingViewModel" />
+            type="com.ohdo.whogarden.chatting.ChattingViewModel" />
     </data>
 <androidx.constraintlayout.widget.ConstraintLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ChattingActivity">
+    tools:context=".chatting.ChattingActivity">
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

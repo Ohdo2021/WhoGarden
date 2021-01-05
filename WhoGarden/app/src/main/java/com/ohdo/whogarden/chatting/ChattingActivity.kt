@@ -1,7 +1,8 @@
-package com.ohdo.whogarden
+package com.ohdo.whogarden.chatting
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.ohdo.whogarden.R
 
 class ChattingActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
