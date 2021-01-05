@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/navi_menu_nick_change"
+            android:title="닉네임 변경"
+            style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"/>
+        <item
+            android:id="@+id/navi_menu_lock"
+            android:title="암호 잠금"/>
+        <item
+            android:title="앱 가이드"
+            android:id="@+id/navi_menu_app_guide"/>
+        <item
+            android:title="라이센스"
+            android:id="@+id/navi_menu_licence"/>
+        <item
+            android:id="@+id/navi_menu_devel_info"
+            android:title="개발자 정보"/>
+        <item
+            android:title="앱 평가하기"
+            android:id="@+id/navi_menu_app_eval"/>
+
+    </group>
+</menu>
