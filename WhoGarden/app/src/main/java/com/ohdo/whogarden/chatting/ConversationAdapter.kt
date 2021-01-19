@@ -7,6 +7,7 @@ import androidx.databinding.DataBindingUtil
 import androidx.databinding.ViewDataBinding
 import androidx.recyclerview.widget.RecyclerView
 import com.ohdo.whogarden.R
+import com.ohdo.whogarden.databinding.ActivityChattingBinding
 
 class ConversationAdapter(private val context:Context) : RecyclerView.Adapter<ConversationAdapter.MessageBoxViewHolder>() {
     private val messages = mutableListOf<MessageModel>()
@@ -28,7 +29,7 @@ class ConversationAdapter(private val context:Context) : RecyclerView.Adapter<Co
         viewType: Int
     ): MessageBoxViewHolder {
         val layout = when (viewType) {
-            MessageModel.Owner.SENDER.viewtype -> {
+            MessageModel.Owner.SENDER.viewType -> {
                 R.layout.message_by_sender
             }
             else -> {
