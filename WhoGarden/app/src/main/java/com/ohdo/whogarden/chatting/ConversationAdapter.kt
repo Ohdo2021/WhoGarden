@@ -52,16 +52,16 @@ class ConversationAdapter(private val context:Context) : RecyclerView.Adapter<Co
     override fun onBindViewHolder(holder: MessageBoxViewHolder, position: Int) {
         val message = messages[position]
 
-        when(message.owner) {
-            MessageModel.Owner.SENDER -> {
-                val binding = holder.binding as MessageBySenderBinding
-                binding.message = message
-            }
-            MessageModel.Owner.RECEIVER -> {
-                val binding = holder.binding as MessageByReceiverBinding
-                binding.message = message
-            }
-        }
+//        when(message.owner) {
+//            MessageModel.Owner.SENDER -> {
+//                val binding = holder.binding as MessageBySenderBinding
+//                binding.message = message
+//            }
+//            MessageModel.Owner.RECEIVER -> {
+//                val binding = holder.binding as MessageByReceiverBinding
+//                binding.message = message
+//            }
+//        }
     }
 
     override fun getItemViewType(position: Int): Int {
